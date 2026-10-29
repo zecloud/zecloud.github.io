@@ -56,6 +56,7 @@ For local use, serve the repository root (for example
 require HTTP, not `file://`. The read-only check workflow runs these checks;
 it has no deployment or write permissions.
 
-The separate GitHub profile README is not managed here. Its prerequisite
-repository, `zecloud/zecloud`, does not currently exist; creating it is outside
-the scope of this site change.
+The separate GitHub profile README and its animated preview are managed in
+`zecloud/zecloud`, not in this generated blog. Its link to `/play/` must remain
+marked as awaiting publication until the site change is merged and a successful
+Pages deployment and live response have been verified.
